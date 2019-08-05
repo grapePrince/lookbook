@@ -5,25 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/main.css">
   <script src="js/all.min.js"></script>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
   <header class="main-header">
-    <span class="aside_toggle">
-      <i class="fas fa-bars"></i>
-    </span>
-    <h1>look book</h1>
-    <span class="search_toggle">
-      <i class="fas fa-search"></i>
-    </span>
-    <form action="">
-      <input type="text">
-      <button>
+    <div class="header_inner">      
+      <span class="aside_toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <h1 class="main_title">Look Book</h1>
+      <span class="search_toggle">
         <i class="fas fa-search"></i>
-      </button>
-    </form>
+      </span>
+      <form action="">
+        <input type="text">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
   </header>
   <main>
     <ul class="latest_product_list">
@@ -31,7 +38,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3 class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -59,7 +66,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3  class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -87,7 +94,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3  class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -115,7 +122,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3  class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -143,7 +150,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3  class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -171,7 +178,7 @@
         <header class="product_list_header">
           <img src="images/profile_list_icon.png" alt="list icon" class="list_icon">
           <div class="list_titles">
-            <h3>Chuck boots</h3>
+            <h3  class="sub_title">Chuck boots</h3>
             <h4>in Chris' <em>Every day</em> book</h4>
           </div>
         </header>
@@ -200,7 +207,7 @@
   <aside>
     <header>
       <img src="images/user_profile.png" alt="user_profile">
-      <h1>My Profile</h1>
+      <h1 >My Profile</h1>
     </header>
     <div class="aside_content">
       <ul class="categories">
